@@ -1,0 +1,109 @@
+<html>
+<head>
+  <style>
+
+    h1 {font-family: Verdana, Arial, sans-serif; font-size: 16px; font-weight: bold;}
+    h2 {font-family: Verdana, Arial, sans-serif; font-size: 14px; font-weight: bold;}
+
+    body {background-color:#ffffff;color:#000000;margin:0px;padding:0px;font-family: Verdana, Arial, sans-serif; font-size: 12px;}
+
+    .fixed {font-family: monospace}
+
+    .std {}
+    .smaller {font-size: 10px}
+
+
+    .topbox {
+      height: 64px;
+      margin:4px;
+      text-align:right;
+      position:relative;
+      min-width:800px;
+    }
+
+    .topbox table {
+      position:absolute;
+      right:0px;
+    }
+
+    .topbox .adlink {
+      position:absolute;
+      right:4px;
+      top:64px;
+      text-align:right;
+    }
+
+    .topbox .adlink a {
+      text-decoration:none;
+    }
+    .topbox .adlink a:hover {
+      text-decoration:underline;
+    }
+
+    .babyyoda {
+      margin-top: 24px;
+      min-width:800px;
+    }
+
+    .premeta {
+      display: none;
+      position: absolute;
+    }
+
+    </style>
+  <link rel="stylesheet" href="http://meta.spinnwebe.com/css/meta.css" type="text/css" />
+
+  <title>baby yoda status</title>
+</head>
+<body>
+<h1 class="premeta">Baby Yoda is <span class="fixed">
+alive
+
+</span></h1>
+
+
+
+<div class="topbox">
+
+
+
+</div>
+
+<table class="babyyoda" width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr align="center" valign="center">
+    <td>
+
+
+      <h1>Baby Yoda is <span class="fixed">
+alive
+
+</span></h1>
+      <p>
+        <img src="yoda.png" width="197" height="248">
+      </p>
+
+      <h2>Page loaded <span id="loadtime"></span></h2>
+      <script>
+          var now = new Date();
+          var output = now.toLocaleDateString("en-us", {
+                  dateStyle: 'full'
+              })
+              + " " + now.toLocaleTimeString("en-us", {
+                  timeZoneName: 'short'
+              });
+          document.getElementById("loadtime").innerText
+              = output.replace(",", "").replace(",", "");
+      </script>
+
+      <p style="font-size:12px;">
+        Reload page for update
+      </p>
+
+
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
